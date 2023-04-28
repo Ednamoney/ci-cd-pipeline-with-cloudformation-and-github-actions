@@ -2,8 +2,7 @@ Resources:
   S3Bucket:
     Type: AWS::S3::Bucket
     Properties:
-      BucketName: my-static1-Edna5-bucket
-      # AccessControl: PublicRead
+      BucketName: my-static1-edna5-bucket
       PublicAccessBlockConfiguration:
           BlockPublicAcls: false
       OwnershipControls:
