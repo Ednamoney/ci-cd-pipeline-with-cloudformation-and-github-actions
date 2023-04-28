@@ -17,7 +17,7 @@ jobs:
       run: |
         aws cloudformation deploy \
           --template-file ./single-tier-app.yaml \
-          --stack-name ednab-stack \
+          --stack-name ednav-stack \
           --capabilities CAPABILITY_NAMED_IAM \
           --parameter-overrides \
             S3BucketName=my-static1-Edna5-bucket \
